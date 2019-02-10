@@ -19,7 +19,7 @@ More information can be found in the relevant Doxygen documentation.
 The official project page can be found here:
 https://nvlabs.github.io/fermat/
 
-DEPENDENCIES:
+## Dependencies
 
 Fermat has the following dependencies:
 
@@ -32,12 +32,14 @@ Fermat has the following dependencies:
 Its distribution also contains a set of adapted models originally taken from Benedikt Bitterli's rendering resources:
 https://benedikt-bitterli.me/resources.
  
-COMPILATION:
+## Compilation
 
 Once all dependencies are sorted out, the Visual Studio 2015 solution file vs/fermat/fermat.sln can be opened
 and the project can be compiled.
 
-USE:
+Pre-compiled 64-bits Windows build are generated with [AppVeyor](https://ci.appveyor.com/project/NVlabs/fermat) and deployed to GitHub Releases on [tagged commits](https://github.com/NVlabs/fermat/tags).
+
+## Use
 
 After compilation, you can launch Fermat's path tracer with the following command line:
 fermat.exe -view -pt -r 1600 900 -i ../../models/bathroom2/bathroom.fa
