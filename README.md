@@ -1,4 +1,4 @@
-#Fermat
+# Fermat [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/OpenVisualCloud/SVT-AV1?branch=master&svg=true)](https://ci.appveyor.com/project/OpenVisualCloud/SVT-AV1)
 
 Fermat 2.0 is a CUDA physically based research renderer designed and developed by Jacopo Pantaleoni at NVIDIA.
 Its purpose is mostly educational: it is primarily intended to teach how to write rendering algorithms,
