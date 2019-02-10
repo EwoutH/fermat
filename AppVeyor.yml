@@ -2,7 +2,7 @@ image: Visual Studio 2017
 configuration: Release
 
 build:
-  project: vs/fermat/fermat.sln
+  project: vs\fermat\fermat.sln
 
  artifacts:
     - path: bin\Release\*.*
